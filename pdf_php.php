@@ -25,7 +25,7 @@ function convertFile($file_name, $convert_into_format)
 {
 
 
-$dir = "C:/xampp/htdocs/Internship/files";
+$dir = "./files";
  
 // Initialize the counter variable to 0
 $i = 0;
@@ -40,7 +40,7 @@ if( $handle = opendir($dir) ) {
 
 
 
-$upload_path = "C:/xampp/htdocs/Internship/files";
+$upload_path = "./files";
 
 // require_once 'vendor/autoload.php';
   $file_format = pathinfo($file_name, PATHINFO_EXTENSION);
